@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-
-import Form from './Components/Form/Form';
+import CreditCard from './Components/CreditCard/Credit.js'
+import Form from './Components/Form/Form.js'
+import './App.css';
 function App() {
   const [cardName, setCardName] = useState('')
   const [cardNumber, setCardNumber] = useState('')
@@ -11,13 +12,19 @@ function App() {
 
   return (
     <>
-      <div className="form-container">
-        <Form setCardName={setCardName}
-          setCardNumber={setCardNumber}
-          setMonth={setMonth} setYear={setYear}
-          setCvc={setCvc}
-          setSuccess={setSuccess}
-        />
+
+      <div className="card-form-container">
+        <div className="card-container">
+          <CreditCard {...{ cardName, cardNumber, month, year, cvc }} />
+        </div>
+        <div className="form-container">
+          <Form setCardName={setCardName}
+            setCardNumber={setCardNumber}
+            setMonth={setMonth} setYear={setYear}
+            setCvc={setCvc}
+            setSuccess={setSuccess}
+          />
+        </div>
       </div>
     </>
   );

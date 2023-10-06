@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: "Space Grotesk", sans-serif;
+}
+.card-form-container {
+    display: grid;
+    grid-template-columns: 40% repeat(1,1fr);
+    gap: 120px;
+    padding: 2.2rem 5rem;
+    align-items: center;
+    
+}
+.back-card {
+    margin-left: 1.5rem;
+}

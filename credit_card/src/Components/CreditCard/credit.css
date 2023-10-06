@@ -1,0 +1,93 @@
+.card {
+    width:400px;
+    height:230px;
+    overflow: hidden;
+    border-radius: 13px;
+    
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.front-card {
+    position: relative;
+}
+.card-details{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.logo {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 1rem;
+}
+.logo .ellipse1 {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.ellipse1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo .ellipse2 {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.ellipse2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-number {
+    text-align: center;
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px 20px;
+    font-size: 1.3rem;
+    color: white;
+    letter-spacing: 3.2px;
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.back-card .cvv-number {
+    margin-left: 307px;
+    margin-top: -131px;
+    color: white;
+}
