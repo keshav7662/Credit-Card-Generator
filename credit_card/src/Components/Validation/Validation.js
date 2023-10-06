@@ -15,6 +15,8 @@ const validation = (cardDetails) => {
     }
     if (cardDetails.year === "") {
         error.year = "*year is required!";
+    }else if (cardDetails.year.length <= 4) {
+        error.year = "*year must be of 4 digit"
     }
     if (cardDetails.cvc === "") {
         error.cvc = "*cvc should not be empty!";

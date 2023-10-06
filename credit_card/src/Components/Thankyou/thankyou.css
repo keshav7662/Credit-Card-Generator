@@ -1,0 +1,35 @@
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.success p {
+    text-transform: uppercase;
+    color: #4d126f;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.success img {
+    width: 100px;
+    height: 100px;
+}
+.success span {
+    font-weight: bold;
+    letter-spacing:1.5px;
+}
+.success button {
+    border-radius: 6px;
+    padding: 15px 150px;
+    background-color: #220930;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    cursor: pointer;
+    text-align: center;
+}

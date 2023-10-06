@@ -6,6 +6,18 @@
     box-sizing: border-box;   
     font-family: "Space Grotesk", sans-serif;
 }
+.bg-image {
+    height: 100vh;
+    width: 35vw;
+    overflow: hidden;
+    position: absolute;
+    z-index: -5;
+}
+.bg-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 .card-form-container {
     display: grid;
     grid-template-columns: 40% repeat(1,1fr);
